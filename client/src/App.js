@@ -1,12 +1,12 @@
-
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <h1>StackOverFlow</h1>
-      <h2>Clone</h2>
+    <div className='App'>
+      <Router>
+        <Navbar />
+      </Router>
     </div>
   );
 }

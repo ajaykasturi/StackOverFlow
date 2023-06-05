@@ -14,7 +14,7 @@ const Auth=()=>{
         {
             isSignup &&  <AboutAuth /> 
         }
-        <div className="auth-container">
+        <div className="auth-container-2">
             {!isSignup && <img src={icon} height="100 " alt="stack overflow" className="login-logo" />}
             <form>
                 {
